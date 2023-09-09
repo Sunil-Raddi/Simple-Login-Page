@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color:white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: white;
+    width: 60%;
+    height: 75%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+    
+}
+#box1{
+    background: linear-gradient(#3cb29c, #3ab892);
+    width: 35%;
+    height: 100%;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box2{
+    background-color: white;
+    width: 65%;
+    height: 100%;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box1 div{   
+    width: 90%;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+#box1 div h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#box1 div p{
+    font-size: 13px;
+    margin: auto;
+    font-weight: lighter;
+    margin-bottom: 13px;
+    width: 90%;
+}
+#box1 div a{
+color: white;
+text-decoration: white;
+padding: 10px 50px;
+border: solid 1px white;
+border-radius: 30px;
+}
+#box2 h1{
+    color: #3ab892;
+    font-size: 35px;
+    text-align: center;
+    margin: 10px auto;
+}
+#icons-list{
+width: 50%;
+margin: 10px auto;
+text-align: center;
+}
+#icons-list span{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px;
+}
+#icons-list span:hover{
+    background-color:lightblue;
+}
+#box2 p{
+    color: #3ab892;
+    text-align: center;
+    margin: 10px 0px;
+}
+#box2 input{
+    /* display: block; */
+    background-color: rgb(223, 222, 222);
+    width: 250px;
+    height: 40px;
+    margin: 10px auto;
+    padding-left:30px ;
+    border: none;
+    border-radius: 5px;
+}
+#box2 button{
+    display: block;
+    background-color: #3ab892;
+    padding: 15px 40px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 250px;
+    color: white;
+}
+#input-box span{
+    color: gray;
+    position: relative;
+    left: 28px;
+    top: 3px;
+}
+#icons-list .bx:hover {
+    color: red;
+
+}
